@@ -1,0 +1,135 @@
+header{
+    background-image: url(../images/zozor_logo.png); /* Путь к фоновому рисунку */
+    background-repeat: no-repeat; 
+    background-color: rgba(255, 255, 255, 0);
+}
+body {
+    background-image: url(../images/yellow_background.png);
+    background-size: cover;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+}
+#main_title{
+    display: inline-block;
+}
+
+header h1{
+    font-family: 'BallparWeiner', serif;
+    font-size: 2.6em;
+    font-weight: normal;
+}
+#logo, header h1{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+header h2{
+    font-size: 1.2em;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    margin-top: 0px;
+}
+nav{
+    display: inline-block;
+    width: 750px;
+    text-align: right;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    margin-right: 16px;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.4;
+    color: black;
+    padding-bottom: 4px;
+}
+nav a:hover{
+    border-bottom: 4px solid #6a0000;
+    color: #6a0000;
+}
+#banner_image{
+    margin-top: 17x;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    position: relative;
+    height: 210;
+    background-image: url(../images/sanfrancisco.jpg);
+    box-shadow: 0px 4px 4px #191716;
+    height: 200px;
+}
+
+#banner_discription{
+    position: absolute;
+    background-color: rgb(25,25,25);
+    background-color: rgba(25,25,25,0.8);
+    font-size: 0.8em;
+    bottom: 0;
+    width: 99.5%;
+    height: 33px;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 16px;
+    padding-left: 5px;
+    color: white;
+}
+.red_button{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2;
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    color: white;
+    bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: url(../images/red_background.png);
+    background-repeat: no-repeat;
+    padding: 3px 8px 0px 8px;
+}
+.red_button imade{
+    border: 0;
+}
+
+article, aside{
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+}
+article{
+    margin-right: 16px;
+    width: 620px;
+}
+.cat_icon{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+article p{
+    font-size: 0.9px;
+}
+aside{
+    background-color: #595550;
+    box-shadow: 0px 2px 5px #191716;
+    border-radius: 5px;
+    color: snow;
+    font-size: 0.9px;
+    padding: 10px;
+    position: relative;
+    width: 235px;
+}
+#arrow{
+    left:-12px;
+    top:100px;
+    position: absolute;
+}
+#zozor_picture{
+    text-align: center;
+}
+#zozr_picture image{
+    border: 1px solid black;
+}
+aside image{
+    margin-right: 5px;
+}
