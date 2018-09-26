@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-image: url(../images/yellow_background.png);
     background-size: cover;
@@ -31,27 +34,27 @@ header h2{
     margin-top: 5px;
 }
 nav{
-    
+    border: 4px solid saddlebrown;
+    border-radius: 10px;
     display: inline-block;
     width: 750px;
-    text-align: left;
+    text-align: center;
+    float: right;
+    margin-top: 6%;
 }
-nav ul{
-    list-style-type: none;
-}
+
 nav li{
+   
     font-size: 25px;
     font-family: Dayrom;
-    margin-right: 16px;
-    display: inline-block;
-    position: relative;
-    left: 150%;
+    display: inline;
 }
 nav a{
     text-decoration: none;
     font-size: 1.4;
     color: black;
     padding-bottom: 4px;
+    margin: 0 20px; 
 }
 nav a:hover{
     border-bottom: 4px solid #6a0000;
@@ -63,7 +66,7 @@ div  id{
 #banner_image{
     border: 4px solid red;
     border-radius: 10px;
-    margin-top: 20x;
+    margin-top: 2px;
     margin-bottom: 15px;
     border-radius: 9px;
     position: relative;
@@ -97,27 +100,28 @@ div  id{
     color: white;
 }
 .red_button{
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.2;
+    background: darkred;
     display: inline-block;
-    position: absolute;
     height: 25px;
-    color: white;
+    position: absolute;
+    right: 5px;
     bottom: 5px;
-    border: 1px solid black;
+    border: 1px solid #760001;
     border-radius: 5px;
-    background: url(../images/red_background.png);
-    background-repeat: no-repeat;
+    font-size: 1.2em;
+    text-align: center;
     padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
 }
-.red_button imade{
-    border: 5;
+.red_button img{
+    border: 0;
 }
 
 section{
     border: 4px solid fuchsia;
     border-radius: 10px;
+    margin-top: 2px;
 }
 article, aside{
     text-align: justify;
@@ -128,41 +132,50 @@ article h1{
     font-family: Dayrom, serif;
 }
 article{
+    display: inline-block;
     border: 4px solid indigo;
+    margin: 2px;
     border-radius: 10px;
-    margin-right: 50px;
-    width: 650px;
+    padding-right: 47.5%;
+    padding-bottom: 18%;
 }
 .cat_icon{
     margin-right: 20px;
     vertical-align: middle;
 }
 article p{
+    padding-left: 2px;
     font-size: 20px;
 }
 aside{
     border: 4px solid green;
+    margin-top: 1px;
     border-radius: 15px;
     background-color: #595550;
     box-shadow: 5px 10px 10px #191716;
     color: snow;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
     position: relative;
     width: 305px;
-    left: 41%;
+    text-align: center;    
 }
-
+#zozor_img{
+    text-align: center;
+}
+#zozor_img img{
+    border: 1px solid black;
+}
+aside p{
+    text-align: left;
+}
+aside h1{
+    text-align: left;  
+}
 #arrow{
     left:-300px;
     top:100px;
     position: absolute;
-}
-#zozor_picture{
-    text-align: center;
-}
-#zozr_picture image{
-    border: 0px solid black;
 }
 aside image{
     margin-right: 5px;
@@ -171,11 +184,21 @@ aside image{
 footer{
     border: 4px solid blue;
     border-radius: 10px;
-
-    background:  url(../images/top.png) no-repeat top center;
-    background: url(../images/line.png) repeat-x top;
-    background: url(../images/shadow.png) repeat-x top;
-    padding-top: 25px;
+    margin-top: 10px;
+    background:  url(../images/top.png) top center;
+    
+    background-repeat: no-repeat;
+    
+   padding-top: 25px;
+}
+footer image{
+    float: : left;
+}
+#top{
+    display: inline-block;
+    float:left;
+    
+    
 }
 footer p, footer ul{
     font-size: 20px;
@@ -203,21 +226,25 @@ footer h1{
 #my_friends{
      border: 3px solid black;
      border-radius: 15px;
-     width: 34%;
-    l
+     width: 31%;
+    
 }
 #my_pictures img{
-    border: 2px solid #181818;
+    border: 2px solid black;
     margin-right: 3px;
 }
 #my_friends ul{
     display: inline-block;
     vertical-align: top;
     margin-top: 0;
+    margin-left: center;
     width: 48%;
-    list-style-image: url('images/external_link.png');
-    padding-left: 2px;
+    list-style-image: url(../images/external_link.png);
+     padding: left ;
 }
 #my_friends a {
     text-decoration: none;
-    color: #760001;}
+    color: darkred;}
+
+ 
+
