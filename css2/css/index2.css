@@ -92,8 +92,8 @@ div  id{
 #banner_image #banner_description{
     position : relative;
     top: 85%;
-    background-color: rgba(0,0,0,.4);
-    height: 20px;
+    background-color: rgba(0,0,0,0.5);
+    height: 30px;
     background-size: cover;
     padding: 5px 20px;
     color: white;
